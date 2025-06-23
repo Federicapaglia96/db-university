@@ -1,0 +1,32 @@
+selezionare tutti gli studenti nal nel 1990
+
+SELECT *
+FROM `students`
+WHERE `enrolment_date` LIKE "1990%"
+
+
+selezionare tutti i corsi che valgono più di 10 crediti
+
+SELECT *
+FROM `courses`
+WHERE `cfu` >10
+
+
+selezionare tutti gli studenti che hanno più di 30 anni
+
+
+
+selezionare tutti i corsi di laurea magistrale
+SELECT *
+FROM `degrees`
+WHERE `level`= "magistrale"
+
+
+da quanti dipartimenti è composta università
+
+
+
+qunati sono gli insegnati che non hanno un numero di telefono
+SELECT *
+FROM `teachers`
+WHERE `phone` IS NULL
